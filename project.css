@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+/* start section quality */
+section.quality {
+    width: 100%;
+    height:450px;
+    background-color: #eee;
+    overflow: hidden;
+
+}
+section.quality div.quality-cont{
+    width: 45%;
+    height:450px;
+    margin-left: 5%;
+    float: left;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.quality div.quality-cont q{
+    color: red;
+    padding: 70px 0 10px 0;
+    font-size: 2em;
+    font-weight: 900;
+}
+section.quality div.quality-cont p{
+    color:#a0a1a5;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+section.quality div.quality-img{
+    width:33%;
+    height:450px;
+    float: left;
+    margin-left: 5%;
+    background-image: url("../images/img4.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+section.quality div.quality-img img{
+    width:25%;
+    height: 150px;
+    position: absolute;
+    bottom: 5%;
+    border: 2px solid #ffffff;
+}
+section.quality div.quality-img img:first-child{
+      left:5%;
+
+  }
+
+section.quality div.quality-img img:nth-child(2){
+     left:37%;
+
+ }
+section.quality div.quality-img img:last-child{
+    left:70%;
+
+}
+/* End section quality*/
+/*start section update*/
+section.update{
+  width:100%;
+  height: 600px;
+  background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+section.update h2{
+   font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+section.update .update-part{
+    width: 31%;
+    height: 400px;
+    margin-left: 2.33%;
+    float: left;
+    background-color: #f8f7fd;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+section.update .update-part p{
+    padding: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+section.update .update-part img{
+    width:80%;
+    height: 200px;
+    border-radius: 5%;
+
+}
+
+section.update .update-part .update-details img{
+    width:30px;
+    height:30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 11%;
+    left: 10%;
+}
+section.update .update-part .update-details span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 10px;
+    color:#a0a1a5;
+    margin-left:4%;
+    margin-right: 4%;
+
+}
+section.update .update-part .update-details span .fa{
+    font-size:18px;
+    color:#a0a1a5;
+
+}
+/*End section update */
